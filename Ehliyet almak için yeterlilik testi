@@ -1,6 +1,8 @@
-print("Ehliyet almak için yeterlilik testi")
+print("Ehliyet almak için yeterlilik testi.")
 yas = input('Yaşınızı girin : ') 
 if(int(yas)<18): 
-  print("Yaşınız ehliyet almak İçin uygun değil") 
+  print("Yaşınız ehliyet almak İçin uygun değil.") 
 else: 
-  print("Yaşınız ehliyet almak için uygun")
+  print("Yaşınız ehliyet almak için uygun.")
+if(int(yas)>100):
+  print("Lütfen geçerli bir yaş girin.")
